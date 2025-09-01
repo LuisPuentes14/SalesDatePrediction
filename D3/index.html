@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico de Barras Horizontal</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="styles.css">    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gráfico de Barras Horizontal</h1>
+            <p class="description">Ingresa datos numéricos separados por comas y visualízalos en un gráfico de barras horizontal con scroll</p>
+        </header>
+        
+        <div class="input-section">
+            <label for="data-input">Source Data:</label>
+            <div class="input-group">
+                <input type="text" id="data-input" placeholder="Ej: 4,8,15,16,23,42" value="4,8,15,16,23,42">
+                <button id="update-btn">Update Data</button>
+            </div>
+            <div id="error-msg" class="error">Por favor ingresa solo números enteros separados por comas.</div>
+            <div id="status-msg" class="status">Entrada válida</div>
+            <div class="example">Ejemplos válidos: "12,45,23" o "5,7,9,11,13"</div>
+        </div>
+        
+        <div class="loading" id="loading">
+            <div class="loading-spinner"></div>
+            <p>Procesando datos...</p>
+        </div>
+        
+        <div class="chart-title">Gráfico de Barras Horizontal Resultante</div>
+        <div class="data-count" id="data-count">0 elementos mostrados</div>
+        <div class="scroll-hint" id="scroll-hint">Desplázate horizontal y verticalmente para ver todos los datos</div>
+        <div class="chart-wrapper">
+            <div class="chart-container" id="chart-container">
+                <div id="no-data-msg">Ingresa datos y haz clic en "Update Data" para generar el gráfico</div>
+            </div>
+        </div>        
+       
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

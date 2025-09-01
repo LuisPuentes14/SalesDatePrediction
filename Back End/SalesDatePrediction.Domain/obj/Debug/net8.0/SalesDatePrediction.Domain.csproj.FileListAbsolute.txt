@@ -1,0 +1,12 @@
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Domain\bin\Debug\net8.0\SalesDatePrediction.Domain.deps.json
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Domain\bin\Debug\net8.0\SalesDatePrediction.Domain.dll
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Domain\bin\Debug\net8.0\SalesDatePrediction.Domain.pdb
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Domain\obj\Debug\net8.0\SalesDatePrediction.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Domain\obj\Debug\net8.0\SalesDatePrediction.Domain.AssemblyInfoInputs.cache
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Domain\obj\Debug\net8.0\SalesDatePrediction.Domain.AssemblyInfo.cs
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Domain\obj\Debug\net8.0\SalesDatePrediction.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Domain\obj\Debug\net8.0\SalesDatePrediction.Domain.sourcelink.json
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Domain\obj\Debug\net8.0\SalesDatePrediction.Domain.dll
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Domain\obj\Debug\net8.0\refint\SalesDatePrediction.Domain.dll
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Domain\obj\Debug\net8.0\SalesDatePrediction.Domain.pdb
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Domain\obj\Debug\net8.0\ref\SalesDatePrediction.Domain.dll

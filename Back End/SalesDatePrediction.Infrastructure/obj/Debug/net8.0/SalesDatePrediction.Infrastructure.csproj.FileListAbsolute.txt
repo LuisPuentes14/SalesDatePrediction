@@ -1,0 +1,16 @@
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Infrastructure\bin\Debug\net8.0\SalesDatePrediction.Infrastructure.deps.json
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Infrastructure\bin\Debug\net8.0\SalesDatePrediction.Infrastructure.dll
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Infrastructure\bin\Debug\net8.0\SalesDatePrediction.Infrastructure.pdb
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Infrastructure\bin\Debug\net8.0\SalesDatePrediction.Domain.dll
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Infrastructure\bin\Debug\net8.0\SalesDatePrediction.Domain.pdb
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Infrastructure\obj\Debug\net8.0\SalesDatePrediction.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Infrastructure\obj\Debug\net8.0\SalesDatePrediction.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Infrastructure\obj\Debug\net8.0\SalesDatePrediction.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Infrastructure\obj\Debug\net8.0\SalesDatePrediction.Infrastructure.AssemblyInfo.cs
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Infrastructure\obj\Debug\net8.0\SalesDatePrediction.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Infrastructure\obj\Debug\net8.0\SalesDatePrediction.Infrastructure.sourcelink.json
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Infrastructure\obj\Debug\net8.0\SalesDat.FE9C1100.Up2Date
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Infrastructure\obj\Debug\net8.0\SalesDatePrediction.Infrastructure.dll
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Infrastructure\obj\Debug\net8.0\refint\SalesDatePrediction.Infrastructure.dll
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Infrastructure\obj\Debug\net8.0\SalesDatePrediction.Infrastructure.pdb
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Infrastructure\obj\Debug\net8.0\ref\SalesDatePrediction.Infrastructure.dll

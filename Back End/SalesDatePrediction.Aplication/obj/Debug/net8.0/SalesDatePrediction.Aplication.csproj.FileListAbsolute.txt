@@ -1,0 +1,16 @@
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Aplication\bin\Debug\net8.0\SalesDatePrediction.Aplication.deps.json
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Aplication\bin\Debug\net8.0\SalesDatePrediction.Aplication.dll
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Aplication\bin\Debug\net8.0\SalesDatePrediction.Aplication.pdb
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Aplication\bin\Debug\net8.0\SalesDatePrediction.Domain.dll
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Aplication\bin\Debug\net8.0\SalesDatePrediction.Domain.pdb
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Aplication\obj\Debug\net8.0\SalesDatePrediction.Aplication.csproj.AssemblyReference.cache
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Aplication\obj\Debug\net8.0\SalesDatePrediction.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Aplication\obj\Debug\net8.0\SalesDatePrediction.Aplication.AssemblyInfoInputs.cache
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Aplication\obj\Debug\net8.0\SalesDatePrediction.Aplication.AssemblyInfo.cs
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Aplication\obj\Debug\net8.0\SalesDatePrediction.Aplication.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Aplication\obj\Debug\net8.0\SalesDatePrediction.Aplication.sourcelink.json
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Aplication\obj\Debug\net8.0\SalesDat.07572F86.Up2Date
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Aplication\obj\Debug\net8.0\SalesDatePrediction.Aplication.dll
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Aplication\obj\Debug\net8.0\refint\SalesDatePrediction.Aplication.dll
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Aplication\obj\Debug\net8.0\SalesDatePrediction.Aplication.pdb
+C:\Users\Alejandro\Documents\cie-co\Cie-co\SalesDatePredictionAPI\SalesDatePrediction.Aplication\obj\Debug\net8.0\ref\SalesDatePrediction.Aplication.dll
