@@ -1,0 +1,64 @@
+
+
+<div class="form-header">
+    <h2>Sales Date Prediction App</h2>
+</div>
+
+
+<div class="mb-4">
+    <p-button type="button" icon="pi pi-chevron-left" (click)="prev()" [disabled]="isFirstPage()" text />
+    <p-button type="button" icon="pi pi-refresh" (click)="reset()" text />
+    <p-button type="button" icon="pi pi-chevron-right" (click)="next()" [disabled]="isLastPage()" text />
+</div>
+<div class="card">
+    <p-table [value]="customers" [paginator]="true" [rows]="5" [first]="first" [showCurrentPageReport]="true"
+        [tableStyle]="{ 'min-width': '50rem' }"
+        currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries" (onPage)="pageChange($event)"
+        [rowsPerPageOptions]="[10, 25, 50]">
+        <ng-template #header>
+            <tr>
+                <th style="width:25%">Customer Name</th>
+                <th style="width:25%">Last Order Date</th>
+                <th style="width:25%">Next Predicted Order</th>
+                <th></th>
+                <th></th>
+
+            </tr>
+        </ng-template>
+        <ng-template #body let-customer>
+            <tr>
+                <td>{{ customer.customerName }}</td>
+                <td>{{ customer.lastOrderDate  | date:'MM/dd/yyyy'  }}</td>
+                <td>{{ customer.nextPredictedOrder  | date:'MM/dd/yyyy'  }}</td>
+                <th><p-button severity="danger"  (click)="showOrdersByCustomer(customer.custId,customer.customerName )" label="VIEW ORDERS" /></th>
+                <th><p-button (click)="showCreateOrder(customer.custId, customer.customerName )" label="NEW ORDER" /></th>
+
+            </tr>
+        </ng-template>
+        <ng-template #paginatorleft>
+            <p-button type="button" icon="pi pi-plus" text />
+        </ng-template>
+        <ng-template #paginatorright>
+            <p-button type="button" icon="pi pi-cloud" text />
+        </ng-template>
+    </p-table>
+</div>
+
+
+<p-dialog header="" [modal]="true" [(visible)]="visible" [style]="{ width: '70rem' }"
+    [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }">
+
+    @if (idCustomer > 0) {
+    <app-orders-customers [idCustomer]="idCustomer" [nameCustomer]="nameCustomer"></app-orders-customers>
+    }
+
+</p-dialog>
+
+<p-dialog header="" [modal]="true" [(visible)]="visibleFormNewOrder" [style]="{ width: '45rem' }"
+    [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }">
+
+    @if (idCustomer > 0) {
+     <app-create-order-customer [idCustomer]="idCustomer" [nameCustomer]="nameCustomer"></app-create-order-customer>
+    }
+
+</p-dialog>

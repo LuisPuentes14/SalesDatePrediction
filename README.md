@@ -25,7 +25,7 @@ SalesDatePrediction/
 │── Date Base/                  # Scripts SQL de la base de datos
 │── Back End/
 │   └── SalesDatePrediction.API # Proyecto .NET Core 8 (API)
-│── Front End/                  # Proyecto Angular
+│── Front-End/                  # Proyecto Angular
 │── D3/                         # Visualización en D3.js
 ```
 
@@ -59,7 +59,7 @@ dotnet run
 
 ### 3️⃣ Front End (Angular)
 
-1. Abrir la carpeta **`Front End/`**.
+1. Abrir la carpeta **`Front-End/`**.
 2. Instalar dependencias:
 
 ```bash

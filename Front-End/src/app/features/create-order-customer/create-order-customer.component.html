@@ -1,0 +1,175 @@
+<!-- <div class="customer-ahpop-form"> -->
+<!-- Header -->
+<div class="form-header">
+  <h2>{{nameCustomer}} - New Order</h2>
+</div>
+
+<form [formGroup]="CreateOrderForm" (ngSubmit)="onSave()">
+  <!-- Formulario -->
+  <div class="form-content">
+    <!-- Sección Order -->
+    <div class="section">
+      <h3>Order</h3>
+
+      <div class="form-row">
+        <div class="form-field">
+          <label for="employee">Employee*</label>
+          <p-dropdown [options]="employees" formControlName="selectedEmployee" optionLabel="fullName"
+            placeholder="Select Employee" id="employee">
+          </p-dropdown>
+          <div *ngIf="CreateOrderForm.get('selectedEmployee')?.invalid && CreateOrderForm.get('selectedEmployee')?.touched">
+            <small style="color: red;" *ngIf="CreateOrderForm.get('selectedEmployee')?.errors?.['required']">The employee is mandatory</small>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="shipper">Shipper*</label>
+          <p-dropdown [options]="shippers" formControlName="selectedShipper" optionLabel="companyName"
+            placeholder="Select Shipper" id="shipper">
+          </p-dropdown>
+           <div *ngIf="CreateOrderForm.get('selectedShipper')?.invalid && CreateOrderForm.get('selectedShipper')?.touched">
+            <small style="color: red;" *ngIf="CreateOrderForm.get('selectedShipper')?.errors?.['required']">The shipper is mandatory</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row single">
+        <div class="form-field">
+          <label for="shipName">Ship Name*</label>
+          <input type="text" id="shipName" formControlName="shipName" placeholder="Enter ship name" class="p-inputtext">
+          <div *ngIf="CreateOrderForm.get('shipName')?.invalid && CreateOrderForm.get('shipName')?.touched">
+            <small style="color: red;" *ngIf="CreateOrderForm.get('shipName')?.errors?.['required']">The ship Name is mandatory</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row triple">
+        <div class="form-field">
+          <label for="shipAddress">Ship Address*</label>
+          <input type="text" id="shipAddress" formControlName="shipAddress" placeholder="Enter address" class="p-inputtext">
+          <div *ngIf="CreateOrderForm.get('shipAddress')?.invalid && CreateOrderForm.get('shipAddress')?.touched">
+            <small style="color: red;" *ngIf="CreateOrderForm.get('shipAddress')?.errors?.['required']">The ship Address is mandatory</small>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="shipCity">Ship City*</label>
+          <input type="text" id="shipCity" formControlName="shipCity" placeholder="Enter city" class="p-inputtext">
+          <div *ngIf="CreateOrderForm.get('shipCity')?.invalid && CreateOrderForm.get('shipCity')?.touched">
+            <small style="color: red;" *ngIf="CreateOrderForm.get('shipCity')?.errors?.['required']">The ship City is mandatory</small>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="shipCountry">Ship Country*</label>
+          <input type="text" id="shipCountry" formControlName="shipCountry" placeholder="Enter country" class="p-inputtext">
+          <div *ngIf="CreateOrderForm.get('shipCountry')?.invalid && CreateOrderForm.get('shipCountry')?.touched">
+            <small style="color: red;" *ngIf="CreateOrderForm.get('shipCountry')?.errors?.['required']">The ship Country is mandatory</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row triple">
+        <div class="form-field">
+          <label for="orderDate">Order Date*</label>
+          <p-calendar formControlName="orderDate" id="orderDate" [showIcon]="true" dateFormat="mm/dd/yy"
+            placeholder="Select date">
+          </p-calendar>
+          <div *ngIf="CreateOrderForm.get('orderDate')?.invalid && CreateOrderForm.get('orderDate')?.touched">
+            <small style="color: red;" *ngIf="CreateOrderForm.get('orderDate')?.errors?.['required']">The order Date is mandatory</small>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="requiredDate">Required Date*</label>
+          <p-calendar formControlName="requiredDate" id="requiredDate" [showIcon]="true" dateFormat="mm/dd/yy"
+            placeholder="Select date">
+          </p-calendar>
+          <div *ngIf="CreateOrderForm.get('requiredDate')?.invalid && CreateOrderForm.get('requiredDate')?.touched">
+            <small style="color: red;" *ngIf="CreateOrderForm.get('requiredDate')?.errors?.['required']">The required Date is mandatory</small>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="shippedDate">Shipped Date*</label>
+          <p-calendar formControlName="shippedDate" id="shippedDate" [showIcon]="true" dateFormat="mm/dd/yy"
+            placeholder="Select date">
+          </p-calendar>
+           <div *ngIf="CreateOrderForm.get('shippedDate')?.invalid && CreateOrderForm.get('shippedDate')?.touched">
+            <small style="color: red;" *ngIf="CreateOrderForm.get('shippedDate')?.errors?.['required']">The shipped Date is mandatory</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row single">
+        <div class="form-field">
+          <label for="freight">$ Freight*</label>
+          <p-inputNumber formControlName="freight" id="freight" mode="currency" currency="USD" locale="en-US"
+            placeholder="0.00">
+          </p-inputNumber>
+          <div *ngIf="CreateOrderForm.get('freight')?.invalid && CreateOrderForm.get('freight')?.touched">
+            <small style="color: red;" *ngIf="CreateOrderForm.get('freight')?.errors?.['required']">The freight is mandatory</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección Order Details -->
+    <div class="section">
+      <h3>Order Details</h3>
+
+      <div class="form-row single">
+        <div class="form-field">
+          <label for="product">Product*</label>
+          <p-dropdown [options]="products" formControlName="selectedProduct" optionLabel="productName"
+            placeholder="Select Product" id="product">
+          </p-dropdown>
+          <div *ngIf="CreateOrderForm.get('selectedProduct')?.invalid && CreateOrderForm.get('selectedProduct')?.touched">
+            <small style="color: red;" *ngIf="CreateOrderForm.get('selectedProduct')?.errors?.['required']">The Product is mandatory</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row triple">
+        <div class="form-field">
+          <label for="unitPrice">$ Unit Price*</label>
+          <p-inputNumber formControlName="unitPrice" id="unitPrice" mode="currency" currency="USD" locale="en-US"
+            placeholder="0.00">
+          </p-inputNumber>
+          <div *ngIf="CreateOrderForm.get('unitPrice')?.invalid && CreateOrderForm.get('unitPrice')?.touched">
+            <small style="color: red;" *ngIf="CreateOrderForm.get('unitPrice')?.errors?.['required']">The unit Price is mandatory</small>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="quantity">Quantity*</label>
+          <p-inputNumber formControlName="quantity" id="quantity" placeholder="0">
+          </p-inputNumber>
+           <div *ngIf="CreateOrderForm.get('quantity')?.invalid && CreateOrderForm.get('quantity')?.touched">
+            <small style="color: red;" *ngIf="CreateOrderForm.get('quantity')?.errors?.['required']">The quantity is mandatory</small>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="discount">Discount*</label>
+          <p-inputNumber formControlName="discount" id="discount" mode="decimal" [minFractionDigits]="0"
+            [maxFractionDigits]="2" suffix="%" placeholder="0%">
+          </p-inputNumber>
+           <div *ngIf="CreateOrderForm.get('discount')?.invalid && CreateOrderForm.get('discount')?.touched">
+            <small style="color: red;" *ngIf="CreateOrderForm.get('discount')?.errors?.['required']">The discount is mandatory</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Botones -->
+    <div class="form-actions">
+
+      <p-button label="SAVE" severity="success" (onClick)="onSave()">
+      </p-button>
+    </div>
+  </div>
+</form>
+
+<p-toast [breakpoints]="{ '920px': { width: '100%', right: '0', left: '0' } }" />
+<!-- </div> -->

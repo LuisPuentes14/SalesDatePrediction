@@ -1,0 +1,27 @@
+<div class="form-header">
+    <h2>{{nameCustomer}} - Orders</h2>
+</div>
+
+<p-table [value]="ordersdto" [paginator]="true" [rows]="10" [tableStyle]="{ 'min-width': '50rem' }"
+    [rowsPerPageOptions]="[10]">
+    <ng-template #header>
+        <tr>
+            <th style="width:25%">Order ID</th>
+            <th style="width:25%">Required Date</th>
+            <th style="width:25%">Shipped Date</th>
+            <th style="width:25%">Ship Name</th>
+            <th style="width:25%">Ship Address</th>
+            <th style="width:25%">Ship City</th>
+        </tr>
+    </ng-template>
+    <ng-template #body let-ordersdto>
+        <tr>
+            <td>{{ ordersdto.orderId }}</td>
+            <td>{{ ordersdto.requiredDate  | date:'MM/dd/yyyy hh:mm:ss a'  }}</td>
+            <td>{{ ordersdto.shippedDate   | date:'MM/dd/yyyy hh:mm:ss a'  }}</td>
+            <td>{{ ordersdto.shipName  }}</td>
+            <td>{{ ordersdto.shipAddress}}</td>
+            <td>{{ ordersdto.shipCity }}</td>
+        </tr>
+    </ng-template>
+</p-table>
